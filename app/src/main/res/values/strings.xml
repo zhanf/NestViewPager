@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NestRecyclerView</string>
+    <string name="ref_text">I want to know the past and present of Hong Kong</string>
+    <string name="record">record</string>
+    <string name="stop">stop</string>
+    <string name="playback">playback</string>
+    <string name="tts">tts</string>
+</resources>

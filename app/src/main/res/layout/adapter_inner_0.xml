@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_inner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/item_ll_0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#f235f5"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/item_ll_2"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/item_ll_1"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_ll_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#317def"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/item_ll_3"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/item_ll_0"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_ll_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#2ad2da"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/item_ll_3"
+        app:layout_constraintTop_toBottomOf="@id/item_ll_0"
+        app:layout_constraintVertical_weight="1"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_ll_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#2fe22f"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/item_ll_2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_ll_1"
+        app:layout_constraintVertical_weight="1"></LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
